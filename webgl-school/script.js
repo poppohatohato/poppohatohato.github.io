@@ -10,10 +10,10 @@
 // ============================================================================
 
 // 必要なモジュールを読み込み
-//import * as THREE from '../lib/three.min.js';
-import * as THREE from '../lib/three.module.js';
-import { DragControls } from '../lib/DragControls.js';
-import { OrbitControls } from '../lib/OrbitControls.js';
+//import * as THREE from './lib/three.min.js';
+import * as THREE from './lib/three.module.js';
+import { DragControls } from './lib/DragControls.js';
+import { OrbitControls } from './lib/OrbitControls.js';
 
 let BOX_COUNT_X = 0; // 一行の数
 let BOX_COUNT_Y = 0; // 一列の数
